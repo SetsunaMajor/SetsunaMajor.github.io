@@ -3,12 +3,17 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: rgb(73, 73, 73);
+    color: fuschia;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
+    color:fuchsia;
+    background-image: url(../assets/profile.png);
+    background-size: auto;
 }
 
 .nav ul {
@@ -43,10 +48,10 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
-    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
-    background-blend-mode: multiply;
-    background-size: cover;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/be/e6/60/bee66095c5539c8d1f1e1f247214f330.png);
+    background-blend-mode:difference;
+    background-size: contain;
     padding-bottom: 30px;
 }
 
@@ -89,7 +94,7 @@ html, body {
 
 .section-header {
     font-weight: 700;
-    color: #333;
+    color: fuchsia;
     text-align: center;
     font-size: 2em;
 }
@@ -114,12 +119,10 @@ html, body {
 
 .main-footer {
     background-color: red;
-    color: white;
+    color: blue;
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
 }
 
 .main-footer-container {
@@ -132,4 +135,8 @@ html, body {
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
+}
+
+#topkek {
+	color: fuchsia;
 }
