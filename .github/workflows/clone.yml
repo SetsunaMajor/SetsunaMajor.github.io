@@ -21,4 +21,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd ../pub/
-              git clone git@github.com:SetsunaMajor/SetsunaMajor.github.io.git
+              git clone https://github.com/SetsunaMajor/SetsunaMajor.github.io.git
